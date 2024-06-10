@@ -1,1 +1,5 @@
 name: "github.com/tedim52/rollkit-package"
+description: |-
+  Rollkit CosmWasm Roll Up Package
+  ========
+  This package allows you to provision a CosmWam rollup with a DA layer using Rollkit.
