@@ -40,6 +40,8 @@ def run(
     tracing_tls=True
     ):
     """
+    Launches local CosmWasm roll up.
+
     Args:
         da_image(string):
         core_grpc_port(string):
