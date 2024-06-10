@@ -50,7 +50,7 @@ def run(
         gateway_port(string):
         headers_trusted_hash(string):
         headers_trusted_peers(string):
-        daser_sample_from(number):
+        daser_sample_from(int):
         keyring_accname(string):
         keyring_backend(string):
         log_level(string):
@@ -66,7 +66,7 @@ def run(
         enable_pyroscope(bool):
         pyroscope_tracing(bool):
         rpc_addr(string):
-        rpc_port(number):
+        rpc_port(string):
         tracing(bool):
         tracing_endpoint(string):
         tracing_tls(bool):
