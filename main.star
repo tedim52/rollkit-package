@@ -147,7 +147,7 @@ def run(
                         "output": "fromjson | .node_info.network",
                     }
                 ),
-                field="extract.output", # document this
+                field="extract.output", 
                 assertion="==",
                 target_value="localwasm", 
                 interval="1s",
@@ -155,7 +155,7 @@ def run(
             )
         )
     )
-    rollup_node_rpc_endpoint = "{0}:{1}".format(rollup_node.ip_address, rollup_node.ports["rpc"].number)
+    rollup_node_rpc_endpoint = "http://{0}:{1}".format(rollup_node.ip_address, rollup_node.ports["rpc"].number)
     plan.print("Roll up node rpc endpoint: {0}".format(rollup_node_rpc_endpoint))
    
     contract_deployment_tx_hash = contract_utils.deploy_optimized_nameservice_contract(plan, rollup_node_rpc_endpoint, wasm_rollup_config)
