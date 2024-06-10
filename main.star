@@ -43,35 +43,35 @@ def run(
     Launches local CosmWasm roll up.
 
     Args:
-        da_image(string):
-        core_grpc_port(string):
-        core_ip(string):
-        core_rpc_port(string):
-        gateway(bool):
-        gateway_addr(string):
-        gateway_port(string):
-        headers_trusted_hash(string):
-        headers_trusted_peers(string):
-        daser_sample_from(int):
-        keyring_accname(string):
-        keyring_backend(string):
-        log_level(string):
-        log_level_module(string):
-        metrics(bool):
-        metrics_endpoint(string):
-        metrics_tls(bool):
-        node_config(string):
-        p2p_metrics(bool):
-        p2p_mutual(string):
-        p2p_network(string):
-        pprof(string):
-        enable_pyroscope(bool):
-        pyroscope_tracing(bool):
-        rpc_addr(string):
-        rpc_port(string):
-        tracing(bool):
-        tracing_endpoint(string):
-        tracing_tls(bool):
+        da_image (string):
+        core_grpc_port (string):
+        core_ip (string):
+        core_rpc_port (string):
+        gateway (bool):
+        gateway_addr (string):
+        gateway_port (string):
+        headers_trusted_hash (string):
+        headers_trusted_peers (string):
+        daser_sample_from (int):
+        keyring_accname (string):
+        keyring_backend (string):
+        log_level (string):
+        log_level_module (string):
+        metrics (bool):
+        metrics_endpoint (string):
+        metrics_tls (bool):
+        node_config (string):
+        p2p_metrics (bool):
+        p2p_mutual (string):
+        p2p_network (string):
+        pprof (string):
+        enable_pyroscope (bool):
+        pyroscope_tracing (bool):
+        rpc_addr (string):
+        rpc_port (string):
+        tracing (bool):
+        tracing_endpoint (string):
+        tracing_tls (bool):
     """
     # start local DA node
     # TODO: return auth token
